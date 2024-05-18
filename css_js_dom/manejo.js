@@ -1,3 +1,12 @@
+/********************************************************* */
+//autor/a: Eduardo Molino
+//version: 1.0.
+//fecha: 18/05/2024
+
+//Manipulación de párrafos y de palabras en un párrafo
+/********************************************************* */
+ 
+
 // Funciones para cambiar el color de los párrafos
 function parrafo1() {
     let parrafo1 = document.getElementById("p1");
