@@ -1,3 +1,11 @@
+/********************************************************* */
+//autor/a: Eduardo Molino
+//version: 1.0.
+//fecha: 16/05/2024
+
+//Temás del DOM con Javascript
+/********************************************************* */
+
 //Creación de elementos - título principal
 let titulo1 = document.getElementsByTagName("main")[0];
 // Modificacion del titulo

@@ -1,3 +1,12 @@
+/********************************************************* */
+//autor/a: Eduardo Molino
+//version: 1.0.
+//fecha: 16/05/2024
+
+//Temás básicos de Javascript
+/********************************************************* */
+
+
 /*
 Esto es un comentario de varias lineas
 
