@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de párrafos</title>
+</head>
+<body>
+    <h2>Manejo de párrafos</h2>
+    
+    <br>
+    <p><b>Estos son varios párrafos</b></p>
+    <p id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero incidunt modi saepe, eveniet aliquam earum veniam, alias beatae necessitatibus dolore, voluptas adipisci? Commodi dicta modi itaque sit obcaecati, architecto, distinctio suscipit asperiores numquam assumenda velit dolor vero nemo! Molestiae dicta modi sit earum itaque ipsum illo optio nulla maxime.
+    </p>
+    <p id="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero incidunt modi saepe, eveniet aliquam earum veniam, alias beatae necessitatibus dolore, voluptas adipisci? Commodi dicta modi itaque sit obcaecati, architecto, distinctio suscipit asperiores numquam assumenda velit dolor vero nemo! Molestiae dicta modi sit earum itaque ipsum illo optio nulla maxime.
+    </p>
+    <p id="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero incidunt modi saepe, eveniet aliquam earum veniam, alias beatae necessitatibus dolore, voluptas adipisci? Commodi dicta modi itaque sit obcaecati, architecto, distinctio suscipit asperiores numquam assumenda velit dolor vero nemo! Molestiae dicta modi sit earum itaque ipsum illo optio nulla maxime.
+    </p>
+    <p id="p4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero incidunt modi saepe, eveniet aliquam earum veniam, alias beatae necessitatibus dolore, voluptas adipisci? Commodi dicta modi itaque sit obcaecati, architecto, distinctio suscipit asperiores numquam assumenda velit dolor vero nemo! Molestiae dicta modi sit earum itaque ipsum illo optio nulla maxime.
+    </p><br>
+    <p>¿Cúal es el...
+    <button id="boton1" style="margin-right: 10px;" onclick="parrafo1()">primer párrafo?</button>
+    <button id="boton2" style="margin-right: 10px;" onclick="parrafo2()">segundo párrafo?</button>
+    <button id="boton3" style="margin-right: 10px;" onclick="parrafo3()">tercer párrafo?</button> 
+    <button id="boton4" style="margin-right: 10px;" onclick="parrafo4()">cuarto párrafo?</button></p>
+    <br>
+    <button id="boton5" style="margin-right: 10px;" onclick="resetP()">Volver a empezar</button>
+
+    <br><br><br><br>
+    <p><b>Este es otro ejemplo</b></p>
+    <p id="p5">
+        <span id="pron">Este</span>
+        <span id="verb"> es</span>
+        <span id="art"> un</span>
+        <span id="adj"> pequeño</span>
+        <span id="sust"> párrafo</span>
+        <span id="adv"> donde</span>
+        <span id="verb"> probar</span>
+        <span id="adj"> algunas</span>
+        <span id="sust"> manipulaciones</span>
+        <span id="prep"> de</span>
+        <span id="sust"> texto</span>
+        <span id="prep"> desde</span>
+        <span id="art"> el</span>
+        <span id="sust"> DOM</span>
+        <span id="prep"> a</span>
+        <span id="adv"> través</span>
+        <span id="prep"> de</span>
+        <span id="sust"> CSS</span>
+        <span id="conj"> y</span>
+        <span id="sust"> JS</span>.
+    </p>
+
+    <br>
+
+    <p>Clasifiquemos las palabras por su morfología:</p>
+    <button id="boton10" style="margin-right: 10px;" onclick="sust()">Sustantivos</button>
+    <button id="boton11" style="margin-right: 10px;" onclick="verb()">Verbos</button>
+    <button id="boton12" style="margin-right: 10px;" onclick="adj()">Adjetivos</button>
+    <button id="boton13" style="margin-right: 10px;" onclick="art()">Artículos</button>
+    <button id="boton14" style="margin-right: 10px;" onclick="prep()">Preposiciones</button>
+    <button id="boton15" style="margin-right: 10px;" onclick="adv()">Adverbios</button>
+    <button id="boton16" style="margin-right: 10px;" onclick="conj()">Conjunciones</button>
+    <button id="boton17" style="margin-right: 10px;" onclick="pron()">Pronombres</button>
+    <br><br>
+    <button id="boton18" style="margin-right: 10px;" onclick="resetPP()">Volver a empezar</button>
+
+
+    <script src="manejo.js"></script>
+</body>
+</html>
