@@ -1,3 +1,11 @@
+/********************************************************* */
+//autor/a: Eduardo Molino
+//version: 1.0.
+//fecha: 16/05/2024
+
+//Manejo de variables de fecha y tiempo en Javascript
+/********************************************************* */
+
 //Manejo del tiempo y las fechas con JS
 
 //new Date()crea un objeto de fecha con la fecha y hora actuales :
