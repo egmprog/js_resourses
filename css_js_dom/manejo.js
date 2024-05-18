@@ -123,11 +123,4 @@ function resetPP() {
 }
 
 // Función para restablecer el color de todos los elementos dentro del párrafo 5
-function resetPP() {
-    let parrafo5 = document.getElementById("p5");
-    let elements = parrafo5.querySelectorAll("*"); // Seleccionar todos los elementos dentro del párrafo 5
-    elements.forEach(element => {
-        element.style.color = "black";
-        element.style.fontWeight = "normal";
-    });
-}
+
